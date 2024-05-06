@@ -1,25 +1,24 @@
-# A Simple Framework For Mobile System Design Interviews (work in progress)
-Below is a simple framework for Mobile System Design interviews. As an example, we are going to use the "Design Twitter Feed" question. The proposed solution is far from being perfect but it is not the point of a system design interview round: no one expects you to build a robust system in just 30 min - the interviewer is mostly looking for specific "signals" from your thought process and communication. Everything you say or do should showcase your strengths and help the interviewer to evaluate you as a candidate.  
-  
-Join the ["Mobile System Design"](https://discord.gg/AWDNrvqban) Discord server for general discussions and feedback.
+# Для чего этот форк?
+Хочется обогатить его в контексте iOS разработчика с упором дополнений из
+- https://www.mobilesystemdesign.com/
+- https://www.mobileatscale.com/
+- Множество других инструментов и книг из соседних платформ (бэк, фронт, андроид)
+- Сбор мнений и валидация через комьюнити экспертов https://t.me/iosmakesmehate
 
-<div align="center">
-  
-[<img height="60" alt="discord" src="https://user-images.githubusercontent.com/786644/91370247-cf4cea80-e7db-11ea-8330-dc29c0fe8969.png">](https://discord.gg/AWDNrvqban)
-  
-</div>
+# Простой мобильный фреймворк для System Design
+Ниже представлена ​​простая схема собеседований по проектированию мобильных систем. В качестве примера мы собираемся использовать вопрос «Дизайн ленты Twitter». Предлагаемое решение далеко от совершенства, но оно не является целью собеседования по проектированию системы: никто не ожидает, что вы создадите надежную систему всего за 30 минут - интервьюер в основном ищет конкретные «сигналы» из вашего мыслительного процесса и коммуникация. Все, что вы говорите или делаете, должно демонстрировать ваши сильные стороны и помогать интервьюеру оценить вас как кандидата.
 
 ## Disclaimer
-The framework was heavily inspired by the similar "Scalable Backend Design" articles. Learning the framework does not guarantee passing the interview. The structure of the interview process depends on the personal style of the interviewer. The dialog is really important - make sure you understand what the interviewer is looking for. Make no assumptions and ask clarifying questions.  
+Фреймворк был во многом вдохновлен аналогичными статьями «Scalable Backend Design». Изучение фреймворка не гарантирует прохождение собеседования. Структура процесса собеседования зависит от личного стиля интервьюера. Диалог действительно важен — убедитесь, что вы понимаете, что ищет интервьюер. Не делайте предположений и задавайте уточняющие вопросы.
 
 **This guide does not reflect the interviewing policies from Google (or any other company).**
 
-## Interview Process (45–60 min)
-- 2–5 min - acquaintances
-- 5 min - defining the task and gathering requirements
-- 10 min - high-level discussion
-- 20-30 min - detailed discussion
-- 5 min - questions to the interviewer
+## Процесс собеседования
+- 2–5 мин - знакомства
+- 5 мин - постановка задачи и сбор требований
+- 10 мин - обсуждение на высоком уровне
+- 20-30 мин - подробное обсуждение
+- 5 мин - вопросы интервьюеру
 
 ## Acquaintances
 Your interviewer tells you about themselves and you tell them about yourself. It's better to keep it simple and short. For example, _"My name is Alex, I've been working on iOS/Android since 2010 - mostly on frameworks and libraries. For the past 2.5 years, I've been leading a team on an XYZ project: my responsibilities include system design, planning and technical mentoring."_ The only purpose of the introduction is to break the ice and provide a gist of your background. The more time you spend on this, the less time you will have for the actual interview.
