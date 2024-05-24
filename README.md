@@ -20,14 +20,17 @@
 - 20-30 мин - подробное обсуждение
 - 5 мин - вопросы интервьюеру
 
-## Acquaintances
-Your interviewer tells you about themselves and you tell them about yourself. It's better to keep it simple and short. For example, _"My name is Alex, I've been working on iOS/Android since 2010 - mostly on frameworks and libraries. For the past 2.5 years, I've been leading a team on an XYZ project: my responsibilities include system design, planning and technical mentoring."_ The only purpose of the introduction is to break the ice and provide a gist of your background. The more time you spend on this, the less time you will have for the actual interview.
+## Как проводить интервью?
+Проверяем умения:
+- Собирать и уточнять требования и ограничения
+- Строить разумные предположения в условиях неопределённости
+- Предлагать варианты решений и компромиссы
+- Проектировать решение задачи и визуализировать его
+- Объяснять решение другому человеку так, чтобы он понял
 
-## Defining The Task
-The interviewer defines the task. For example: _"Design Twitter Feed"_.  Your first step is to figure out the scope of the task:
-- **Client-side only** -  just a client-app: you have the backend and API available.
-- **Client-side + API**  -  likely choice for most interviews: you need to design a client app and API.
-- **Client-side + API + Back-end** -  less likely choice since most mobile engineers would not have a proper backend experience. If the interviewer asks server-side questions - let them know that you're most comfortable with the client-side and don't have hands-on experience with backend infrastructure. It's better to be honest than trying to fake your knowledge. If they still persist - let them know that everything you know comes from books, YouTube videos, and blog posts.
+
+## Как начать интервью
+Сегодня у нас с тобой секция проектирования. Мы попробуем спроектировать %экран / библиотеку / кусок функциональности%. Сразу оговорюсь, что в этой секции нет единственно правильного ответа, ход твоих мыслей так же важен, как итоговый результат. Нужно задавать вопросы, говорить про плюсы и минусы решений, озвучивать почему ты принял те или иные решения.
 
 ## Gathering Requirements
 Task requirements can be split into **functional**, **non-functional** and **out of scope**.  We'll define them in the scope of "Design Twitter Feed" task.
